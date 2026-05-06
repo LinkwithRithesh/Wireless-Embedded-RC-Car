@@ -102,7 +102,19 @@ code/code.ino
 - Mobile app development
 
 ---
+# Wireless-Embedded-RC-Car
 
+A Bluetooth-controlled embedded RC car built using Arduino Uno, HC-05 Bluetooth module, and L298N motor driver. The project demonstrates wireless communication, embedded motor control, PWM-based speed regulation, and real-time directional movement control.
+
+---
+
+# Project Preview
+
+![RC Car](image/Rc visual1.jpeg)
+
+---
+
+# Features
 # Author
 
 **Ritheshwaran A**  
