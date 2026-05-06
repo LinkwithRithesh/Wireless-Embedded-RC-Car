@@ -110,8 +110,7 @@ A Bluetooth-controlled embedded RC car built using Arduino Uno, HC-05 Bluetooth 
 
 # Project Preview
 
-![RC Car](image/Rc visual1.jpeg)
-
+image/Rc visual1.jpeg
 ---
 
 # Features
