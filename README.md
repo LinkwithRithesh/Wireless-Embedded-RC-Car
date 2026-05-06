@@ -4,7 +4,7 @@ A Bluetooth-controlled embedded RC car built using Arduino Uno, HC-05 Bluetooth 
 
 ---
 
-## Features
+# Features
 
 - Wireless Bluetooth control
 - Forward, backward, left, right, and stop movement
@@ -15,7 +15,7 @@ A Bluetooth-controlled embedded RC car built using Arduino Uno, HC-05 Bluetooth 
 
 ---
 
-## Hardware Components
+# Hardware Components
 
 - Arduino Uno
 - HC-05 Bluetooth Module
@@ -28,7 +28,7 @@ A Bluetooth-controlled embedded RC car built using Arduino Uno, HC-05 Bluetooth 
 
 ---
 
-## Pin Connections
+# Pin Connections
 
 | Module | Arduino Pin |
 |---|---|
@@ -43,21 +43,21 @@ A Bluetooth-controlled embedded RC car built using Arduino Uno, HC-05 Bluetooth 
 
 ---
 
-## Working Principle
+# Working Principle
 
 The smartphone sends Bluetooth commands through the HC-05 module. Arduino Uno receives the commands using SoftwareSerial communication and controls the L298N motor driver to move the RC car in different directions.
 
-Commands used:
+## Commands Used
 
-- F → Forward
-- B → Backward
-- L → Left
-- R → Right
-- S → Stop
+- `F` → Forward
+- `B` → Backward
+- `L` → Left
+- `R` → Right
+- `S` → Stop
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Embedded Systems
 - Arduino Programming
@@ -67,19 +67,23 @@ Commands used:
 
 ---
 
-## Circuit Diagram
+# Circuit Diagram
 
-(Add your wiring diagram image here)
-
----
-
-## Arduino Code
-
-Upload the `.ino` file into this repository.
+![Wiring Diagram](circuit/wiring_diagram.jpg)
 
 ---
 
-## Applications
+# Arduino Code
+
+Arduino source code is available in:
+
+```bash
+code/code.ino
+```
+
+---
+
+# Applications
 
 - Robotics projects
 - Wireless vehicle control
@@ -89,7 +93,7 @@ Upload the `.ino` file into this repository.
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 - Obstacle avoidance using ultrasonic sensors
 - ESP32 camera integration
@@ -99,8 +103,8 @@ Upload the `.ino` file into this repository.
 
 ---
 
-## Author
+# Author
 
-Ritheshwaran A  
+**Ritheshwaran A**  
 B.E Electronics and Communication Engineering  
 College of Engineering Guindy, Anna University
